@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.envelope {
+	border: 1px solid; 
+	padding: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 40%;
+	height: 25%;
+	display: block;
+	position: absolute;
+}
+
+.to-address {
+	width: 20%;
+	margin: 0 auto;
+	margin-top: 6%;
+}
+
+.stamp { 
+	width: 75px;
+	height: 75px;
+	margin-right: 5px;
+	border: 1px solid; 
+	display: fixed;
+	float: right;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.stamp-text { 
+	-webkit-transform: rotate(-45deg);
+	display: block;
+	margin-top: 25px;
+	font-size: 18px;
+	color: grey;
+	font-weight: bold;
+}

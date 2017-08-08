@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+.card {
+	margin: 0px auto;
+	margin-top: 20px;
+	background-color: #1c5ec9;
+	width: 270px;
+	height: 160px;
+	border-radius: 9px;
+	padding: 20px;
+}
+
+.bank-name { 
+	font-size: 24px;
+	display: block;
+	float: right;
+}
+
+.card-num { 
+	text-align: center;
+	display: block;
+	clear: both;
+	margin-top: 80px;
+	letter-spacing: 3px;
+	word-spacing: 6px;
+	font-size: 20px;
+	font-family: Tahoma;
+}
+
+.card-first-four { 
+	font-size: 12px;
+}
+
+
+.date-container { 
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.date { 
+	letter-spacing: 2px;
+	font-size: 16px;
+	display: inline;
+	width: 48%;
+	float: left;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.valid-thru { 
+	font-size: 10px;
+	width: 48%;
+	float: left;
+	text-align: right;
+	line-height: 8px;
+}
+
+.cardholder-name { 
+	clear: both;
+	font-family: Times New Roman;
+	margin-top: 35px;
+}
