@@ -39,4 +39,11 @@ function MailItem({message})
 		text: "React Newsletter Issue 36 - July 15th 2016 Read this issue on the web http://reactjsnewsletter.com/issues/36?sid=3QGDYBX ### Comme"
 	};
 
-ReactDOM.render(<MailItem message={message} />, document.getElementById('root'));
+	var message2 = { 
+		sender: "React Newsletter",
+		subject: "React Newsletter - Issue 37",
+		date: "Jul 15",
+		text: "React Newsletter Issue 36 - July 15th 2016 Read this issue on the web http://reactjsnewsletter.com/issues/36?sid=3QGDYBX ### Comme"
+	};
+ReactDOM.render(<div><MailItem message={message} />
+	<MailItem message={message2}/></div>, document.getElementById('root'));
