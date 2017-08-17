@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 import './index.css';
 
 function App() {
@@ -52,7 +53,7 @@ function Dialog({children}) {
   );
 }
 Dialog.propTypes = { 
-	//TOOD: Proptypes!
+	children: PropTypes.element
 };
 
 function Title({children}) {
