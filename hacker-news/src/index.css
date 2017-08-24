@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  font-size: 12px;
+}
+
+.header-bar { 
+	margin-top: 10px !important;
+	margin: 0px auto;
+	width: 75%;
+	height: 24px;
+	background-color: #ff6600;
+	line-height: 24px;
+}
+
+.header-title { 
+	padding-right: 10px;
+	padding-left: 6px;
+	font-weight: bold;
+}
+
+.header-item { 
+	padding: 0px 4px 0px 2px;
+	display: inline-block;
+}
+
+.fa-y-combinator { 
+	height: 24px;
+}
+
+.article-line { 
+	margin: 0 auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #f6f6ef;
+	width: 75%;
+}
+
+.article-details { 
+	font-size: 9px;
+	padding-left: 27px;
+}
+
+.article-detals > span { 
+	margin-left: 5px;
+	margin-right: 10px;
+}
