@@ -9,6 +9,7 @@ const CardView = ({cards}) =>
     <Card card="" />
     <Card card="" />
     <Card card="" />
+    <Card card="" />
     <div className="clear">&nbsp;</div>
   </div>;
 
@@ -29,6 +30,7 @@ const Card = ({card}) =>
     <div className="card-image-small">
       <img src="" />
     </div>
+    <div className="clear">&nbsp;</div>
     <div className="card-image-small">
       <img src="" />
     </div>
