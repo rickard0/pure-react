@@ -4,9 +4,19 @@ import Item from './Item';
 import './CartPage.css';
 
 function CartPage({items, onAddOne, onRemoveOne}) {
+  let emptyCart = '';
   let total = items.reduce((sum, item) => {
     return sum + item.price * item.count;
   }, 0);
+
+  if (total < 1)
+    emptyCart = (
+      <div className="CartPage-empty">
+        Your Cart is Empty.<p>
+          Why not add some stupidly-expensive products to it?
+        </p>
+      </div>
+    );
   return (
     <div>
       <ul className="CartPage-items">
@@ -32,6 +42,7 @@ function CartPage({items, onAddOne, onRemoveOne}) {
           </li>,
         )}
       </ul>
+      {emptyCart}
       <div className="Cart-total">
         Total: ${total}
       </div>

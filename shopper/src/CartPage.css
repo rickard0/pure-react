@@ -7,6 +7,14 @@
 	list-style: none;
 }
 
+.CartPage-empty { 
+	margin: 0 auto;
+	padding-top: 40px;
+	text-align: center;
+	color: #aaa;
+	font-weight: bold;
+}
+
 .Cart-total { 
 	font-size: 24px;
 	float: right;
